@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(30deg, rgb(77,77,77), rgb(58,58,58));
+    color: rgb(58,58,58);  
+}
+header{
+    position: static;
+}
+main ul{
+    width: 600px;    
+}
+
+main{
+    width: 600px;
+}  
+li:nth-of-type(11){
+    grid-column: 1/span 11;
+}
+#araku{
+    width: 1000px;
+    height: 350px;
+    margin-left: 230px;
+}
+main li img{
+    width: 350px;
+}
+main li{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px color(black);
+    border-radius: 6px;
+    overflow: hidden;
+    width: 900px;
+    height: 250px;
+    margin-left: 250px;
+}
+.items{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: larger;
+}
+.action{
+    text-align: right;
+    color: aqua;
+}
+strong{
+    color: aqua;
+}
+.action :hover{
+    background-color:  rgb(58,58,58);
+}
+.back{
+        background: linear-gradient(45deg, rgb(164, 202, 216), rgb(10, 128, 212));
+        position: absolute;
+        top: 3145px;
+        height: 80px;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+}
+.about{
+    height: 400px;
+}
+
+
